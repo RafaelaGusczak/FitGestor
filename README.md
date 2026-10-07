@@ -271,5 +271,3 @@ dir /s /b src\*.java > fontes.txt
 javac -encoding UTF-8 -cp lib\postgresql-42.7.7.jar -d out @fontes.txt
 java -cp "out;lib\postgresql-42.7.7.jar" Main
 ```
-
-**4. Login inicial:** usuário `admin`, senha `admin123`. Troque a senha depois do primeiro acesso.
