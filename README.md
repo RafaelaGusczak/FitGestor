@@ -253,7 +253,7 @@ db/schema.sql   # cria as tabelas
 db/seed.sql     # insere planos, instrutores, alunos e o usuário inicial
 ```
 
-**2. Configuração.** Copie `db.properties.example` para `db.properties` (na raiz do projeto) e preencha com os dados do seu banco. Esse arquivo está no `.gitignore` e **não deve ser enviado ao GitHub**. Como alternativa, use as variáveis de ambiente `DB_URL`, `DB_USER` e `DB_PASSWORD`.
+**2. Configuração.** O arquivo `db.properties` (na raiz do projeto) já está configurado com o banco usado nesta entrega, então não é preciso alterar nada. Para usar outro banco, edite `url`, `user` e `password` nesse arquivo ou defina as variáveis de ambiente `DB_URL`, `DB_USER` e `DB_PASSWORD` (que têm prioridade).
 
 **3. Compilar e executar** (na raiz do projeto):
 
